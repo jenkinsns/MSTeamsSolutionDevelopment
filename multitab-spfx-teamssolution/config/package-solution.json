@@ -1,0 +1,14 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "multitab-spfx-teamssolution-client-side-solution",
+        "id": "792185af-883c-4422-8c00-c5d6bc771d68",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true,
+        "isDomainIsolated": false,
+        "skipFeatureDeployment": true
+    },
+    "paths": {
+        "zippedPackage": "solution/multitab-spfx-teamssolution.sppkg"
+    }
+}
