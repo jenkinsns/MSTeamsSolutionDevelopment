@@ -1,0 +1,26 @@
+Create three webpart under the same solution
+Products
+Services
+Technology
+Create App Manifest manually and create three tabs
+Download and place under teams folder
+
+https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/creating-team-manifest-manually-for-webpart
+
+update content url
+
+"contentUrl": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26personal%26componentId={{SPFX_COMPONENT_ID}}%26forceLocale={locale}",
+
+
+change the SPFX_COMPONENT_ID 
+
+"skipFeatureDeployment": true
+
+ "*.login.microsoftonline.com",
+        "*.sharepoint.com",
+        "*.sharepoint-df.com",
+        "spoppe-a.akamaihd.net",
+        "spoprod-a.akamaihd.net",
+        "resourceseng.blob.core.windows.net",
+        "msft.spoppe.com"
+
